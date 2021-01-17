@@ -4,9 +4,9 @@
 
 Generate protobuf files:
 
-    $ protoc -I ../ --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` ../hello.proto
+    $ protoc -I ../ --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` ./hello.proto
 
-    $ protoc -I ../ --cpp_out=. ../hello.proto
+    $ protoc -I ../ --cpp_out=. ./hello.proto
 
 Compile client and server:
 
